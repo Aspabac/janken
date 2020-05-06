@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+    
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+#janken{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#janken img{
+    
+    margin: 0 20px;
+    object-fit: cover;
+    width: 200px;
+    transition: 0.5s;
+}
+
+#janken img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+
+footer{
+    
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    text-align: center;
+}
